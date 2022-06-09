@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+.logo img {
+  width: 130px;
+}
+li {
+  list-style: none;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  vertical-align: top;
+  padding: 30px 0px;
+}
+.left-content {
+  width: 15%;
+  padding: 20px 30px;
+  padding-top: 70px;
+  color: #fff;
+}
+.center-content {
+  width: 100%;
+  padding: 0px 30px;
+}
+.center-content .top {
+  display: flex;
+  justify-content: space-between;
+}
+.center-content .top .top-icons button,
+span {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.center-content .top .top-icons button {
+  padding: 6px 15px;
+  background: #000;
+  color: #fff;
+}
+.course {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.main ul a li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  padding: 10px;
+}
+.main ul a.active::after {
+  /* text-decoration: underline; */
+  content: "";
+  width: 120px;
+  display: block;
+  height: 1px;
+  margin: 0 auto;
+  background: #000;
+  /* border-bottom: 1px solid #000; */
+}
+.tab {
+  width: 100%;
+  height: 100vh;
+}
+table {
+  table-layout: auto;
+}
+
+tr {
+  width: 100%;
+  padding: 10px !important;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+}
+td,
+button {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px;
+  text-align: center;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+td.date {
+  /* margin: 10px; */
+  /* padding: 5px; */
+  text-align: center;
+}
+table tbody tr td button {
+  padding: 12px 24px;
+  width: 150px;
+  border: 1px solid #000;
+}
+.right-content {
+  width: 10%;
+  vertical-align: top;
+}
+.right-content > div {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  /* padding: 10px; */
+  color: #fff;
+  border-radius: 50%;
+  background: #000000;
+  margin: auto;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
+}
+.right-content h2 {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  text-align: center;
+  margin: auto;
+  vertical-align: top;
+}
+.top {
+  width: 100%;
+}
